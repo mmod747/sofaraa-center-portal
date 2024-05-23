@@ -24,7 +24,7 @@
               <RouterLink to="/ReserveHall">
                 <v-list-item
                   :prepend-icon="mdiHomeCityOutline"
-                  title="حجز دورة"
+                  title="حجز قاعة"
                   value="halls"
                 ></v-list-item>
               </RouterLink>
@@ -32,7 +32,7 @@
               <RouterLink to="/courses">
                 <v-list-item
                   :prepend-icon="mdiHumanMaleBoardPoll"
-                  title="test"
+                  title="حجز دورة"
                   value="home"
                 ></v-list-item>
               </RouterLink>

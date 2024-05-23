@@ -1,3 +1,4 @@
+import CoursesTable from '@/Couress/pages/CoursesTable.vue'
 import ReserveHall from '@/Halls/pages/ReserveHall.vue'
 import MainLayout from '@/views/MainLayout.vue'
 import { createRouter, createWebHistory } from 'vue-router'
@@ -14,6 +15,11 @@ const router = createRouter({
           path: '/ReserveHall',
           name: 'Reserve-Hall',
           component: ReserveHall
+        },
+        {
+          path: '/Courses',
+          name: 'Courses',
+          component: CoursesTable
         }
       ]
     }
