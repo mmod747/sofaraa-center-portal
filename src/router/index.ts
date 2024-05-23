@@ -1,6 +1,7 @@
 
 import ReserveHall from '@/views/Halls/pages/ReserveHall.vue'
 import ReservedHallTable from '@/views/Halls/pages/ReservedHallTable.vue'
+import LoginPage from '@/views/LoginPage.vue'
 import MainLayout from '@/views/MainLayout.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
@@ -21,7 +22,12 @@ const router = createRouter({
           path: '/hall-reserve',
           name: 'hall-reserve',
           component: ReserveHall
-        }
+        } ,
+        {
+          path: '/login',
+          name: 'login',
+          component: LoginPage
+        },
       ]
     }
   ]

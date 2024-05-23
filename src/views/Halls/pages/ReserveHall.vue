@@ -1,7 +1,7 @@
 <template>
   <div class="mt-20 bg-white border-t-8 border-[#D81B60] mx-auto p-7 rounded-lg shadow-lg h-4/5">
     <p class="pr-8 text-lg">حجز قاعة</p>
-    <v-form v-model="!form" class="grid grid-cols-2 gap-3 p-4 items-center justify-center">
+    <v-form class="grid grid-cols-2 gap-3 p-4 items-center justify-center">
       <div>
         <v-autocomplete
           v-model="hallName"
