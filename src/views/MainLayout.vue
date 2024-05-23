@@ -32,7 +32,7 @@
               <RouterLink to="/">
                 <v-list-item
                   :prepend-icon="mdiHumanMaleBoardPoll"
-                  title="test"
+                  title="حجز دورة"
                   value="home"
                 ></v-list-item>
               </RouterLink>
