@@ -21,15 +21,15 @@
             <v-divider></v-divider>
 
             <v-list density="compact" nav>
-              <RouterLink to="/ReserveHall">
+              <RouterLink to="/hall-list">
                 <v-list-item
                   :prepend-icon="mdiHomeCityOutline"
-                  title="حجز دورة"
+                  title="حجوزات القاعات "
                   value="halls"
                 ></v-list-item>
               </RouterLink>
 
-              <RouterLink to="/courses">
+              <RouterLink to="/">
                 <v-list-item
                   :prepend-icon="mdiHumanMaleBoardPoll"
                   title="test"
@@ -37,10 +37,10 @@
                 ></v-list-item>
               </RouterLink>
 
-              <RouterLink to="/employess">
+              <RouterLink to="/">
                 <v-list-item :prepend-icon="mdiAccountTie" title="test" value="Staff"></v-list-item>
               </RouterLink>
-              <RouterLink to="/teachers">
+              <RouterLink to="/">
                 <v-list-item
                   :prepend-icon="mdiHumanMaleBoard"
                   title="test"
@@ -48,7 +48,7 @@
                 ></v-list-item>
               </RouterLink>
 
-              <RouterLink to="/students">
+              <RouterLink to="/">
                 <v-list-item
                   :prepend-icon="mdiAccountGroupOutline"
                   title="test"
@@ -60,7 +60,7 @@
                 title="test"
                 value="customers"
               ></v-list-item>
-              <RouterLink to="/packages">
+              <RouterLink to="/">
                 <v-list-item
                   :prepend-icon="mdiWalletGiftcard"
                   title="test"
